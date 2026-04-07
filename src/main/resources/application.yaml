@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: KK-Partner-Platform
+
+server:
+  port: 8443
+  ssl:
+    enabled: false
