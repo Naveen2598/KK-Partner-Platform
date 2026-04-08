@@ -1,6 +1,9 @@
 name: Deployment
 on:
   workflow_dispatch:
+  push: #for testing
+    branches: #for testing
+      - feature/* #for testing
 env:
   IMAGE_NAME: springboot-app
 
